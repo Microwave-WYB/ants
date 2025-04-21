@@ -1,0 +1,20 @@
+[project]
+name = "ants"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yibo Wei", email = "david_wyb2001@outlook.com" }
+]
+requires-python = ">=3.13.3"
+dependencies = [
+    "httpx>=0.28.1",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+ants = "ants:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
