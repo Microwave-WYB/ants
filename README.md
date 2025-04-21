@@ -2,6 +2,8 @@
 
 ## Installation
 
+Requires Python 3.13 so far because of `queue.ShutDown`.
+
 ### Using `pip`
 
 ```sh
